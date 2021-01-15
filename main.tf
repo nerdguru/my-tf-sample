@@ -58,6 +58,6 @@ resource "aws_instance" "example" {
   vpc_security_group_ids = [aws_security_group.allow_tls.id]
   subnet_id = aws_subnet.sample_subnet.id
   tags = {
-    Name = "example"
+    Name = "nerdguru"
   }
 }
